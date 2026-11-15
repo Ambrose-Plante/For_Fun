@@ -12,15 +12,3 @@ This is an educational/reference implementation of the original encoder-decoder 
 4. Masked decoder + cross-attention
 5. Output projection/softmax
 6. Sequence training
-
-## Research context
-
-Independent explorations are retained for completeness, rather than presented as core Maximus components.
-
-## Source and reproducibility
-
-- Python export: `The Annotated _Attention is All You Need_.py` (available in the prepared import package; upload to this project folder pending)
-
-This documentation is based on static analysis of the historical notebook in the supplied 36-page analytical report, not on execution of the Python export. Original datasets, Colab and Drive paths, checkpoints, sound fonts, credentials, or historical dependencies may be needed to run it.
-
-**Attribution:** This is identified as an educational/reference Transformer notebook, not an original Maximus model. Check its provenance and license before redistribution.
