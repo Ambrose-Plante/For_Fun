@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is an exploratory notebook for polysomnography or related physiological signals stored in EDF format. It installs and uses pyEDFlib to read signal arrays and associated channel metadata. Sample counts and sampling rates are used to infer record duration and establish usable time axes. Selected channels are then downsampled or sliced into manageable windows and plotted for inspection. There is no learned predictive model; the algorithmic content is file parsing, signal selection, temporal indexing, and visualization.
+This is an exploratory notebook for polysomnography or related physiological signals stored in EDF format. It installs and uses pyEDFlib to read signal arrays and associated channel metadata. Sample counts and sampling rates are used to infer record duration and establish usable time axes. Selected channels are then downsampled or sliced into manageable windows and plotted for inspection.
 
 ## Algorithmic workflow
 
