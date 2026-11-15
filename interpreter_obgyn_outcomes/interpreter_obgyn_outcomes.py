@@ -19,7 +19,6 @@ os.chdir('interp_obgyn_outcomes/')
 # creds, _ = default()
 # gc = gspread.authorize(creds)
 
-# gsheets = gc.open_by_url('https://docs.google.com/spreadsheets/d/1_2v2023IUQo1bY7yLY9dl5yIZuoT62b2/edit#gid=1045397882')
 # ## deleted this column: "Please let us know who referred you to the I Can PIC website."
 # merged_data_list = gsheets.worksheet('Sheet1').get_all_values()
 
@@ -191,7 +190,6 @@ def catagorize_races(race):
 # creds, _ = default()
 # gc = gspread.authorize(creds)
 
-# gsheets = gc.open_by_url('https://docs.google.com/spreadsheets/d/1dRsUi9P4n9IpG3zBa-SKIORQH5cGtMEF_8ewVUnHvnM/edit#gid=0')
 # sheet = gsheets.sheet1
 
 df = pd.DataFrame()
@@ -465,8 +463,6 @@ for i in tqdm(range(len(merged_data_list))):
     df = pd.concat([df, pd.DataFrame([data_dict])], ignore_index=True)
 
 # Export to CSV
-df.to_csv("patients_data_with_name.csv", index=False)
-
 sum(df['Insurance'].values==3)
 
 data_sheet_list = []

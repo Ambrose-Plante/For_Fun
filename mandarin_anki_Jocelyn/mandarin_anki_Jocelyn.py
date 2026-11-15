@@ -29,7 +29,7 @@ beats_per_phrase = 4
 savefile_name = "mandarin_english_deck_" + str(row_start) + '_' + str(row_end) + '.apkg'
 deck_name = "mandarin_english_deck_" + str(row_start) + '_' + str(row_end)
 
-gsheets = gc.open_by_url('https://docs.google.com/spreadsheets/d/1-5xfs9tpOPD5cwE1EEOvrEVLgwPwuqUnplBMb2Oz984/edit?gid=0#gid=0')
+gsheets = gc.open_by_url(os.environ["JOCELYN_ANKI_SHEET_URL"])
 phrases = gsheets.worksheet('Sheet1').get_all_values()
 
 # Create a DataFrame with one column: "Phrase" (English text)

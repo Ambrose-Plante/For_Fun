@@ -60,7 +60,6 @@ The script prints `original / transformed` when both words are in the supplied l
 ## Notes
 
 - The folders contain **research and prototype code**, not necessarily complete or maintained production applications. Some scripts depend on local datasets, Colab/Google Drive paths, external tools, credentials, or older Python libraries.
-- Before reusing the Anki/TTS projects, inspect any API integrations for historical embedded credentials and use environment variables or a secrets manager instead.
 - The annotated Transformer project is reference/educational material; check the relevant upstream license and attribution before redistribution.
 
 See each linked project README for a more detailed explanation of its algorithm and processing steps.

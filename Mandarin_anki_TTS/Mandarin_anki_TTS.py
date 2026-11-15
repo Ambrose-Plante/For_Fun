@@ -21,9 +21,6 @@ from google.colab import drive
 drive.mount('/content/drive')
 %cd /content/drive/My\ Drive/Mandarin_anki
 
-# Make sure your Google Cloud JSON credentials are set
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = ""
-os.environ["OPENAI_API_KEY"] = ""
 
 # Create a single global client
 tts_client = texttospeech.TextToSpeechClient()
@@ -114,7 +111,7 @@ import genanki
 import random
 import os
 
-gsheets = gc.open_by_url('https://docs.google.com/spreadsheets/d/1-5xfs9tpOPD5cwE1EEOvrEVLgwPwuqUnplBMb2Oz984/edit?gid=0#gid=0')
+gsheets = gc.open_by_url(os.environ["ANKI_GOOGLE_SHEET_URL"])
 rows = gsheets.worksheet('Sheet1').get_all_values()
 
 # Convert to a DataFrame with explicit column names

@@ -10,7 +10,7 @@ creds, _ = default()
 gc = gspread.authorize(creds)
 
 # Open our new sheet and add some data.
-gsheet_url = 'https://docs.google.com/spreadsheets/d/1tNKM7Gwq2s_YIQzXbPJgudkv0etkah5CosZy-br2z3Q/edit#gid=0' ## Noah
+gsheet_url = os.environ["BNB_GOOGLE_SHEET_URL"]
 worksheet1 = gc.open_by_url(gsheet_url).sheet1
 worksheet2 = gc.open_by_url(gsheet_url).get_worksheet(1)
 
