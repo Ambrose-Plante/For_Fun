@@ -17,11 +17,11 @@ Independent explorations are retained for completeness, rather than presented as
 - [`OSA_exploration`](OSA_exploration/) — This is an exploratory notebook for polysomnography or related physiological signals stored in EDF format.
 - [`The Annotated _Attention is All You Need_`](The_Annotated__Attention_is_All_You_Need/) — This is an educational/reference implementation of the original encoder-decoder Transformer rather than a project-specific music model.
 - [`Untitled0`](Untitled0/) — This notebook contains only a package-installation command for the pedalboard audio-processing library.
-- [`Untitled2`](Untitled2/) — This notebook is a minimal filesystem-search utility.
+- [`search_google_drive`](search_google_drive/) — This notebook is a minimal filesystem-search utility.
 - [`Untitled3`](Untitled3/) — This is a syntactically valid but effectively empty notebook.
-- [`Untitled4`](Untitled4/) — This notebook performs a simple overlap operation between two gene-related CSV tables.
+- [`compare_gene_names`](compare_gene_names/) — This notebook performs a simple overlap operation between two gene-related CSV tables.
 - [`Untitled5`](Untitled5/) — This notebook only installs and imports PyGMT.
-- [`Untitled6`](Untitled6/) — This notebook archives programming source files from a Google Drive hierarchy.
+- [`export_google_drive`](export_google_drive/) — This notebook archives programming source files from a Google Drive hierarchy.
 - [`uworld_anki`](uworld_anki/) — This notebook converts specially formatted study text into an Anki question deck.
 - [`video_to_mp3`](video_to_mp3/) — This notebook prepares video or recorded-media files for audio processing and transcription.
 
