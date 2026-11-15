@@ -12,13 +12,3 @@ This notebook prepares video or recorded-media files for audio processing and tr
 4. Prepare temporary MP3
 5. Optionally invoke transcription
 6. Organize outputs
-
-## Research context
-
-Independent explorations are retained for completeness, rather than presented as core Maximus components.
-
-## Source and reproducibility
-
-- Python export: `video_to_mp3.py` (available in the prepared import package; upload to this project folder pending)
-
-This documentation is based on static analysis of the historical notebook in the supplied 36-page analytical report, not on execution of the Python export. Original datasets, Colab and Drive paths, checkpoints, sound fonts, credentials, or historical dependencies may be needed to run it.
